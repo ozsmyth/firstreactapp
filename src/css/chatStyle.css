@@ -1,0 +1,35 @@
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto;
+    font-family: century gothic;
+}
+
+.chatBox {
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    /* background: #95b1a4; */
+    background: #121212;
+}
+
+.button {
+    background-color:#007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px auto;
+    transition: background-color 0.3s;
+    filter: drop-shadow(1px 1px 4px rgba(12,11,15,0.3));
+}
+
+.button:hover{
+    background-color: #0056b3;
+}
