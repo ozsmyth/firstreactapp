@@ -25,7 +25,7 @@
 
 import axios from 'axios'
 
-const API_URL = 'http://192.168.43.26:4000/api';//process.env.REACT_APP_API_URL;
+const API_URL = process.env.REACT_APP_API_URL;
 console.log(API_URL);
 
 export async function signupUtils(email, password) {
